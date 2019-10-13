@@ -9,11 +9,13 @@ User.create!(fullname: "Phan  Kiều Hưng ",
   phone: "0989647109",
   email: "hungpk@admin.com",
   role: 0,
-  password: "123456")
+  password: "123456",
+  password_confirmation: "123456")
 (1..5).each do |i|
   User.create!(fullname: Faker::Name.name,
   phone: Faker::PhoneNumber.phone_number,
   email: Faker::Internet.email,
   role: 1,
-  password: "123456")
+  password: "123456",
+  password_confirmation: "123456")
 end
