@@ -8,7 +8,7 @@ gem 'rails', '~> 5.2.3'
 gem 'bcrypt', platforms: :ruby
 gem "faker"
 gem "carrierwave", "1.1.0"
-gem "mini_magick", "4.9.4"
+gem "mini_magick", "4.9.5"
 gem "fog", "1.40.0"
 gem "config"
 gem "bootstrap-sass", "3.4.1"
