@@ -7,7 +7,7 @@ gem "rails_admin"
 gem 'rails', '~> 5.2.3'
 gem 'bcrypt', platforms: :ruby
 gem "faker"
-gem "carrierwave", "1.1.0"
+gem "carrierwave", "1.3.2"
 gem "mini_magick", "4.9.4"
 gem "fog", "1.40.0"
 gem "config"
